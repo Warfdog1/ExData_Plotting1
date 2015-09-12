@@ -25,7 +25,7 @@ plot(data4, Sub_Metering1, type="l", ylab="Energy sub metering", xlab="")
 lines(data4, Sub_Metering2, type="l", col="red")  
 lines(data4, Sub_Metering3, type="l", col="blue")  
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
-       lty=1, lwd=2.5, col=c("black", "red", "blue"))  
+       lty=1, lwd=2.5, col=c("black", "red", "blue"), bty="n")  
 
 plot(data4, Global_Reactive_Power, type="l", xlab="datetime", ylab="Global_reactive_power")  
 
